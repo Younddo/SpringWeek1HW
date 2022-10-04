@@ -18,18 +18,18 @@ POST | /api/blogs/{id} | {"password":"password"} | {"success":true, "fail":false
 PUT | /api/blogs/{id} | {"username" : "username2", "title" : "title2", "contents" : "contents2", "password" : "password2"}| {createdAt: "2022-10-04T02:51:52.702872", modifiedAt: "2022-10-05T02:51:52.702872", id: 3, username: "username2", title: "title2", contents: "contents2"} |
 DELETE | /api/post/{id} | - | {"success":"true"} |
 
-## ◼️ 수정, 삭제 API의 request를 어떤 방식으로 사용했나? (param, query, body)
+### ◼️ 수정, 삭제 API의 request를 어떤 방식으로 사용했나? (param, query, body)
 
 
-## ◼️ 어떤 상황에 어떤 방식의 request를 써야 하나요?
+### ◼️ 어떤 상황에 어떤 방식의 request를 써야 하나요?
 
 
-## ◼️ RESRful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?
+### ◼️ RESRful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?
 
 
-## ◼️ 작성한 코드에서 빈(Bean)을 모두 찾아보세요!
+### ◼️ 작성한 코드에서 빈(Bean)을 모두 찾아보세요!
 
 
-## ◼️ API 명세서 작성 가이드라인을 검색하여 직접 작성한 명세서와 비교해보세요.
+### ◼️ API 명세서 작성 가이드라인을 검색하여 직접 작성한 명세서와 비교해보세요.
 
 
